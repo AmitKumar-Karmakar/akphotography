@@ -1,4 +1,11 @@
 JS MINIFIER: https://jscompress.com
 
 CSS MINIFICATION:
-1. Compress css file(combines multiple css into single css) - https://www.giftofspeed.com/css-compressor/
+Compress css file(combines multiple css into single css) - https://www.giftofspeed.com/css-compressor/
+    Upload css files to above url and click on compress buton.
+    Copy the transformed css from compressed output tab and paste it in corresponding styleBundle file
+    
+    Note: After copying in visual studio, if css looks formatted (with spaces and line breaks). Then, we have to turnoff formatOnPaste option to off.
+    Follow the below steps to do the same:
+      Tools -> Options -> Text Editor -> CSS -> Advanced.   In right side of window, under formatting dropdown, there will be "Format On Paste" dropdown, choose "Off" option from it.
+    
